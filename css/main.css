@@ -1,0 +1,97 @@
+/* Bramble & Oak - main stylesheet
+   Original build, 2019. Do not delete .header-old below -- Dana said the
+   nav might go back to the old look after the patio season. (It didn't.
+   Nobody removed this since.) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #2b2620;
+  background: #faf6ef;
+}
+
+a {
+  color: #5b3a29;
+}
+
+.header-old {
+  background: #1f1a15;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 4px solid #8a5a3a;
+}
+
+.site-header {
+    background: #3a2c22;
+    color: #f5efe4;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .brand {
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.site-header nav a {
+  color: #f5efe4;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #8a5a3a;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.btn_primary {
+  display: inline-block;
+  background: #8a5a3a;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.hours {
+  background: #eee3d0;
+  padding: 16px 20px;
+  border-radius: 4px;
+}
+
+footer {
+  background: #1f1a15;
+  color: #cbbfaf;
+  padding: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #cbbfaf;
+}

@@ -1,0 +1,20 @@
+/* Spring 2023 refresh -- new patio section + a smaller CTA button for the
+   nav bar. Loaded after main.css on every page. */
+
+.patio-banner {
+  background: #d8c9a3;
+  padding: 20px 24px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.patio-banner h2 {
+  margin-top: 0;
+}
+
+/* Just for the little "Reserve" link in the nav -- keep it compact so it
+   doesn't crowd the logo. */
+.btn {
+  padding: 5px 12px;
+  font-size: 12px;
+}
